@@ -4,7 +4,7 @@ from importlib.machinery import SourceFileLoader
 import numpy as np
 import matplotlib.pyplot as plt
 
-dsp = SourceFileLoader("traffic module","C:/Users/tests/Desktop/learning/traffic module.py").load_module()
+dsp = SourceFileLoader("traffic module","the file path").load_module() #input the path of your traffic module
 
 red=255,0,0
 purple=255,0,255
