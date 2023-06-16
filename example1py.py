@@ -2,7 +2,7 @@ import pygame
 import sys
 from importlib.machinery import SourceFileLoader
 
-dsp = SourceFileLoader("traffic module","C:/Users/tests/Desktop/learning/traffic module.py").load_module()
+dsp = SourceFileLoader("traffic module","the file path").load_module()
 
 red=255,0,0
 purple=255,0,255
